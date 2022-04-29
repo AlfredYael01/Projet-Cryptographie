@@ -18,6 +18,3 @@ transformationT: transformationT.c transformationT.h Interface.h
 
 clean:
 	rm -f Chiffrement.o Vigenere.o Interface.o cesar.o transformationT.o crypto
-
-debug:
-	gcc -g Chiffrement.c Vigenere.c Interface.c cesar.c transformationT.c -o crypto -lm
